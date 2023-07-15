@@ -141,7 +141,7 @@ Run your program again and compare what actually happened to what you expected
 happen.
 
 How does the order of the output for the code in this phase compare with the
-order of the output for the previous phase? The order should depend on the
+order of the output for the previous phase? the order should depend on the
 timing you set for the `setTimeout`s in each function. Feel free to experiment
 with different timeout values to change the order.
 
@@ -163,7 +163,7 @@ function wait(ms) {
 function?**
 
 You would want to use the `wait` function to execute code after the `Promise`
-returned from the function is fulfilled. The `wait` function wraps the
+returned from the function is fulfilled. the `wait` function wraps the
 asynchronous `setTimeout` in a `Promise`.
 
 Try using the `wait` function. Create another function that, when invoked, will
